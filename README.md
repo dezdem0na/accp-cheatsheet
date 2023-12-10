@@ -91,11 +91,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [AWS Service Catalog](#aws-service-catalog)
  - [AWS Managed Services](#aws-managed-services)
  - [Amazon Machine Image (AMI)](#amazon-machine-image-ami)
- - [Five design principles for performance efficiency in the cloud](#five-design-principles-for-performance-efficiency-in-the-cloud)
- - [Five design principles for cost optimization in the cloud](#five-design-principles-for-cost-optimization-in-the-cloud)
- - [Five design principles for reliability in the cloud](#five-design-principles-for-reliability-in-the-cloud)
- - [Six design principles for security in the cloud](#six-design-principles-for-security-in-the-cloud)
- - [Five pillars of the AWS Well-Architected Framework](#five-pillars-of-the-aws-well-architected-framework)
  - [Amazon S3 Transfer Acceleration](#amazon-s3-transfer-acceleration)
  - [Amazon Neptune](#amazon-neptune)
  - [AWS Direct Connect](#aws-direct-connect)
@@ -340,7 +335,29 @@ Performance efficiency Design principles:
 - Go global in minutes: Deploy your workload in multiple AWS Regions
 - Use serverless architectures: Serverless architectures remove the need for you to run and maintain physical servers for traditional compute activities. 
 - Experiment more often: With virtual and automatable resources, you can quickly carry out comparative testing using different types of instances, storage, or configurations.
-- Consider mechanical sympathy: Consider data access patterns when you select database or storage for your workload. 
+- Consider mechanical sympathy: Consider data access patterns when you select database or storage for your workload.
+
+Cost optimization Design principles:
+1. Adopt a consumption model
+2. Measure overall efficiency
+3. Stop spending money on data center operations
+4. Analyze and attribute expenditure
+5. Use managed services to reduce cost of ownership
+
+Reliability Design principles:
+1. Test recovery procedures
+2. Automatically recover from failure
+3. Scale horizontally to increase aggregate system availability:
+4. Stop guessing capacity
+5. Manage change in automation
+
+Security Design principles:
+1. Implement a strong identity foundation
+2. Enable traceability
+3. Apply security at all layers
+4. Automate security best practices
+5. Protect data in transit and at rest
+6. Prepare for security events
 
 ### AWS WAF
 - AWS Web Application Firewall creates custom rules that block <ins>common attack patterns</ins>, to protect against **common exploits** that could compromise application availability and security or consume excessive resources, such as:
@@ -720,42 +737,6 @@ Performance efficiency Design principles:
 	- My AMIs
 - It stores the **information** that defines an **EC2 instance** such as the template for the *root volume*, *launch permissions* and *block device mappings*.
 - A Golden AMI can create an exact copy of a resource in another region.
-
-### Five design principles for performance efficiency in the cloud
-1. Democratize advanced technologies
-2. Go global in minutes
-3. Use serverless architectures
-4. Experiment more often
-5. Mechanical sympathy
-
-### Five design principles for cost optimization in the cloud
-1. Adopt a consumption model
-2. Measure overall efficiency
-3. Stop spending money on data center operations
-4. Analyze and attribute expenditure
-5. Use managed services to reduce cost of ownership
-
-### Five design principles for reliability in the cloud
-1. Test recovery procedures
-2. Automatically recover from failure
-3. Scale horizontally to increase aggregate system availability
-4. Stop guessing capacity
-5. Manage change in automation
-
-### Six design principles for security in the cloud
-1. Implement a strong identity foundation
-2. Enable traceability
-3. Apply security at all layers
-4. Automate security best practices
-5. Protect data in transit and at rest
-6. Prepare for security events
-
-### Five pillars of the AWS Well-Architected Framework
-1. Operational excellence
-2. Security
-3. Reliability
-4. Performance efficiency
-5. Cost optimization
 
 ### Amazon S3 Transfer Acceleration
 - It enables fast, easy, and secure **transfers** of files **over long distances** between your client and your Amazon S3 bucket.
