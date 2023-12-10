@@ -375,7 +375,7 @@ AWS Scaling **horizontally**:
 ### AWS support plans
 [Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
 
-**Basic Support** is included for all AWS customers and includes:
+- **Basic Support** is included for all AWS customers and includes:
 	- Customer Service and Communities - 24x7 access to customer service, documentation, whitepapers, and AWS re:Post.
 	- AWS Trusted Advisor - Access to core Trusted Advisor checks
 	- AWS Health - A personalized view of the health of AWS services, and alerts when your resources are impacted.
