@@ -48,7 +48,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Elastic Container Registry (ECR)](#amazon-elastic-container-registry-ecr)
  - [Virtual Private Gateway](#virtual-private-gateway)
  - [VPC peering connection](#vpc-peering-connection)
- - [AWS support plans](#aws-support-plans)
+ - [AWS ](#aws-support-plans)
  - [Amazon IAM](#amazon-iam)
  - [Amazon Cognito](#amazon-cognito)
  - [AWS Organizations](#aws-organizations)
@@ -374,20 +374,16 @@ AWS Scaling **horizontally**:
 - It enables you to route traffic via **private IP addresses** between *two* peered VPCs.
 
 ### AWS support plans
-- **Basic**: Does not provide any <ins>*technical support*</ins>.
-- **Developer**: Provides **business hours** access via **email**.
-- **Business**: Provides < 1-hour response times for a <ins>production system failure</ins>.
-- **Enterprise**: Provides < 1-hour response times for a <ins>production system failure</ins> but is a **more expensive**.
-- All support plans provide "**24/7**":
-	- access to customer service
-	- documentation
-	- whitepapers
-	- support forums
-- Only the **Enterprise** plan provides a **response time of < 15 minutes** for the failure of a *business-critical system*.
-- Only **Business** and **Enterprise** plans provide *support via* **email**, **chat** and **phone**.
-- **Enterprise** plan comes with a *Technical Account manager*(**TAM**)
-- **Developer** plan provides **email support** by **cloud support associates** team whereas **business** and **enterprise** provide **email support** by the **cloud support engineers** team.
-- With the **Developer** plan you can open **unlimited** cases.
+[Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
+
+**Basic Support** is included for all AWS customers and includes:
+	- Customer Service and Communities - 24x7 access to customer service, documentation, whitepapers, and AWS re:Post.
+	- AWS Trusted Advisor - Access to core Trusted Advisor checks
+	- AWS Health - A personalized view of the health of AWS services, and alerts when your resources are impacted.
+**Developer**
+**Business**
+**Enterprise On-Ramp**
+**Enterprise**
 
 ### Amazon IAM
 - You **cannot** use IAM to create **local user accounts** on any system.
