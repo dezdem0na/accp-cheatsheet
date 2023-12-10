@@ -325,9 +325,11 @@ AWS Scaling **horizontally**:
 
 ### AWS Well-Architected Framework
 - Operation excellence
+	- Deploy smaller, reversible changes.
 - Security
 - Reliability
 - Performance efficiency
+	- Information gathered through the evaluation process to actively drive adoption of new services or resources.
 - Cost optimization
 
 ### AWS WAF
@@ -852,6 +854,8 @@ Use the Report Amazon AWS abuse form to report suspected abuse of AWS resources 
 
 ***
 ### Notes
+- Deploying to multiple AZs replicates applications across multiple data centers in the same Region and provides High Availability. Multi-Region deployments are best for applications that have extremely high availability requirements.
+- A **Region** is a geographical area of the world that is a collection of data centers logically grouped into Availability Zones. **Availability Zones (AZs)** consist of 1 or more physically separated data centers.
 - **Loose Coupling**: a desirable attribute of an IT system is that it can be broken into smaller, loosly coupled components.
 - Amazon VPC is a **free of charge** service.
 - Network ACLs operate at the **subnet** level NOT AZ level. It provides a firewall / security layer at the subnet level.
