@@ -578,7 +578,7 @@ Security Design principles:
 - horizontal scaling -> scaling-out
 
 ### AWS CloudHSM
-- **Cloud-based hardware security module** (HSM) that allows you to add secure key storage and high performance crypto operations to your AWS applications.
+- **Cloud-based hardware security module** (HSM) that allows you to generate and store encryption keys and add high performance crypto operations to your AWS applications.
 - CloudHSM has **no upfront costs** and provides the ability to *start* and *stop* HSMs **on-demand**, allowing you to provision cpacity when and where it is needed quickly and cost-effectively.
 - CloudHSM is a managed service that **automates** <ins>time-consuming administrative tasks</ins>, such as hardware provisioning, **software patching**, **high availability**, and **backups**.
 - It uses a highly secure *hardware storage device* to **store encryption keys**
