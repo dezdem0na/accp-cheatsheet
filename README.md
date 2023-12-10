@@ -127,6 +127,14 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Notes](#notes)
 
 ***
+### AWS Global Infrastructure
+- Regions:
+	- A Region is a geographic area that hosts 2 or more Availability Zones. 
+	- They are grouped in geographic locations.
+	- They are fully independent and isolated.
+	- They contain only the resources and services specifically deployed to them.
+- There are more Availability Zones than Regions.
+
 ### Amazon S3
 - **CRR** (Cross-region replication): enables automatic, asynchronous
 copying of objects across buckets in different AWS Regions.
@@ -489,6 +497,7 @@ Security Design principles:
 	-  "Create an AWS Organization configuration linking the accounts"
 	-  "Setup consolidated billing between the accounts"
 - Volume pricing discounts applied **across multiple accounts**.
+- **Service control policies** case: What can the customer use to restrict the same permissions across all AWS accounts managed under AWS Organizations: Organization service control policies (SCPs) allow you to create permissions guardrails that apply to all accounts within a given organization.
 
 ### Popular HTTTP code
 - A HTTP 200 codes: successful
