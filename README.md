@@ -636,6 +636,10 @@ Security Design principles:
 - You can migrarte Virtual Machines from **VMware vSphere** and **Windows Hyper-V** to AWS with this sevice.
 
 ### AWS Database Migration Service (DMS)
+On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS service to an on-premises database. Between source and target endpoints that use the same database engine, such as from Oracle to Oracle. Between source and target endpoints that use different database engines, such as from Oracle to PostgreSQL.
+- Replicate ongoing changes
+- Move to managed databases
+- Remove licensing costs and accelerate business growth
 
 ### Amazon DevPay
 - That makes it easy for budinesses to **sell applications** that are built in, or run on top of, *Amazon Web Services*.
