@@ -18,7 +18,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Foundations of Cloud Computing
 	- [AWS Well-Architected Framework](#aws-well-architected-framework)
  	- [Cloud Computing](#cloud-computing)
-	- [Six advantages of Amazon Cloud (Benefits)](#six-advantages-of-amazon-cloud-benefits)
+	- [Advantages of Amazon Cloud (Benefits)](#advantages-of-amazon-cloud-benefits)
 	- [Geographical Services](#geographical-services)
 - Security, Compliance, and Governance
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
@@ -159,9 +159,8 @@ copying of objects across buckets in different AWS Regions.
 - **Bucket policies** allow you to control access to entire buckets.
 - You can use **ACLs** to grant basic read/write permissions to other AWS accounts.
 
-	
-### Six advantages of Amazon Cloud (Benefits)
-- Trade capital expense for variable expense.
+### Advantages of Amazon Cloud (Benefits)
+- Replace upfront capital expenses with low variable costs. (Trade capital expense for variable expense)
 - Benefit from massive economies of scale.
 - Stop guessing about capacity.
 - Increase speed and agility.
@@ -755,7 +754,9 @@ Security Design principles:
 - These IT services **can include everything** from virtual machine images, servers, software, and databases to complete multi-tier application architectures.
 
 ### AWS Managed Services
+- Leverage standard AWS services and offer guidance and execution of operational best practices with specialized automations, skills, and experience.
 - It manages the **daily operations** of your AWS infrastructure in alignment with **ITIL** processes and provides a **baseline integration** with IT Service Management (**ITSM**) tools such as the ServiceNow platform.
+- Managed Services helps you efficiently operate your AWS infrastructure and **reduces operational risks and overhead**.
 
 ### Amazon Machine Image (AMI)
 - It contains three catagories:
