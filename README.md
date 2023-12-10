@@ -19,6 +19,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS Well-Architected Framework](#aws-well-architected-framework)
  	- [Cloud Computing](#cloud-computing)
 	- [Six advantages of Amazon Cloud (Benefits)](#six-advantages-of-amazon-cloud-benefits)
+	- [Geographical Services](#geographical-services)
 - Security and Compliance
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 	- [AWS CloudHSM](#aws-cloudhsm)
@@ -29,7 +30,9 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
-	- Amazon VPC()
+	- [Popular HTTTP code](#popular-htttp-code)
+  	- [VPC peering connection](#vpc-peering-connection)
+	- [Amazon VPC](#amazon-vpc)
 - Pricing, Billing, Support and Governance
 	- [AWS Trust & Safety team](#aws-trust--safety-team)
 	- [AWS Support plans](#aws-support-plans)
@@ -62,10 +65,8 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Elastic Container Service (ECS)](#amazon-elastic-container-service-ecs)
  - [Amazon Elastic Container Registry (ECR)](#amazon-elastic-container-registry-ecr)
  - [Virtual Private Gateway](#virtual-private-gateway)
- - [VPC peering connection](#vpc-peering-connection)
  - [Amazon Cognito](#amazon-cognito)
  - [AWS Organizations](#aws-organizations)
- - [Popular HTTTP code](#popular-htttp-code)
  - [AWS CloudTrail](#aws-cloudtrail)
  - [Amazon CloudWatch](#amazon-cloudwatch)
  - [Amazon DynamoDB](#amazon-dynamodb)
@@ -116,7 +117,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [AWS CodePipeline ](#aws-codepipeline)
  - [Amazon Macie](#amazon-macie)
  - [AWS OpsWorks](#aws-opsworks)
- - [Geographical Services](#geographical-services)
  - [Notes](#notes)
 
 ***
