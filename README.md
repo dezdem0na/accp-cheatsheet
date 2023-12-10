@@ -505,6 +505,7 @@ Security Design principles:
 	-  "Setup consolidated billing between the accounts"
 - Volume pricing discounts applied **across multiple accounts**.
 - **Service control policies** case: What can the customer use to restrict the same permissions across all AWS accounts managed under AWS Organizations: Organization service control policies (SCPs) allow you to create permissions guardrails that apply to all accounts within a given organization.
+- Usecase: Create an Organizational Unit structure in AWS Organizations with separate underlying accounts for production, development, and testing environments.
 
 ### Popular HTTTP code
 - A HTTP 200 codes: successful
