@@ -324,6 +324,7 @@ AWS Scaling **horizontally**:
 	- Amazon DynamoDB
 	- Amazon Redshift
 	- Amazon S3
+ - Usecase: A company with a popular website would like to analyze website clickstreams in real time to determine site usability.
 
 ### AWS CloudFormation
 - It provides a **common language** for you to <ins>describe</ins> and <ins>provision</ins> all the infrastructure resources in your cloud environment.
