@@ -252,17 +252,16 @@ AWS Scaling **horizontally**:
 - Organization can assess applications for vulnerabilities and **deviations** *from best practices*.
 
 ### AWS Trusted Advisor
-- An **online resource** that helps to *reduce cost*, *increase performance* and *improve security* by **optimizing** your AWS environment.
-- Five *categories* of Trusted Advisor:
-	- Cost optimization
-	- Security
+- An **online resource** that helps to *reduce cost*, *increase performance* and *improve security*.
+- Trusted Advisor can check:
+	- Cost optimization (Low utilization on EC2 instances)
+	- Security (Open-access permissions for S3 buckets, Exposed access keys)
 	- Performance
 	- Service limits
 	- Fault tolerance
-- It can be used to **display current usage and limits**.
-- It offers a Service Limits check (in the *Performance* category) that displays your usage and limits for some aspects of some services
+- Trusted Advisor can't check:
+	- Amazon services down
 - It can be used to provide **real time guidance** on provisioning resources following *AWS best practices*.
-- It can be used to **check service limits** for resources launched within AWS Infrastructure.
 
 ### AWS Personal Health Dashboard
 - It provides **alerts** and **remediation** *guidance* when AWS is experiencing events that may *impact* you.
