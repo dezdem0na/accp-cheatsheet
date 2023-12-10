@@ -840,6 +840,7 @@ On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS serv
 
 ### Amazon Global Accelerator
 - You are asked to **improve the performance** of the application for <ins>local and global users</ins>. As part of this initiative, you must **monitor** the **application endpoint health** and **route traffic** to the most appropriate endpoint. For aiming this we should use amazon global accelerator.
+- Usecase: A company has developed a popular online multiplayer gaming application. How can the company enhance its players' online experience and improve overall application availability and reduce in-game latency?
 
 ### AWS Data Sync
 - It is a simple and fast way to **move huge amounts** of data (hundreds of terabytes) between **on-premise** storage to **S3**, **EFS**, **FSx**.
