@@ -25,6 +25,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- (Key Management Service (KMS))()
 	- [AWS Trusted Advisor](#aws-trusted-advisor)
 	- [Amazon GuardDuty](#amazon-guardduty)
+	- [Amazon IAM](#amazon-iam)
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
@@ -61,7 +62,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Elastic Container Registry (ECR)](#amazon-elastic-container-registry-ecr)
  - [Virtual Private Gateway](#virtual-private-gateway)
  - [VPC peering connection](#vpc-peering-connection)
- - [Amazon IAM](#amazon-iam)
  - [Amazon Cognito](#amazon-cognito)
  - [AWS Organizations](#aws-organizations)
  - [Popular HTTTP code](#popular-htttp-code)
