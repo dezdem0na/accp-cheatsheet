@@ -113,6 +113,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Macie](#amazon-macie)
  - [AWS OpsWorks](#aws-opsworks)
  - [Geographical Services](#geographical-services)
+ - [AWS Trust & Safety team]()
  - [Notes](#notes)
 
 ***
@@ -843,6 +844,9 @@ AWS Scaling **horizontally**:
 	- EC2 Instances
 	- EBS Volumes
 	- Cluster Placement Groups
+
+### AWS Trust & Safety team
+Use the Report Amazon AWS abuse form to report suspected abuse of AWS resources (Web content/non-copyright intellectual property, Copyright , Email abuse, Network activity, Hacking).
 
 ***
 ### Notes
