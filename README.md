@@ -899,7 +899,8 @@ With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in 
 - Security groups: act like built-in firewalls for your virtual servers — the rules you create define what is allowed to talk to your instances and how.
 Note: Although **network access control lists** can be used to block or deny traffic, these operate at the subnet level (covering all instances in the subnet with the same ruleset), not per instance as the question specifies.
 - Route tables: tell traffic where it should go next to reach its destination.
-- NAT gateway: Is required to allow resources in a private subnet to access the internet. 
+- NAT gateway: Is required to allow resources in a private subnet to access the internet.
+- Internet gateway: Enables resources inside your VPC to reach the internet, as long as route tables and IP addresses are correctly configured in your environment.(For a subnet to be public and send non-local traffic to the internet)
 
 ### Infrastructure Event Management
 AWS Infrastructure Event Management is a structured program available to **Enterprise Support** customers that helps you plan for large-scale events, such as product or application launches, infrastructure migrations, and marketing events. It is also available to Business Support customers, but they need to pay an additional fee to use this service and cannot use it normally as part of their plan.
