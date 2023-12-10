@@ -24,35 +24,38 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 	- [AWS CloudHSM](#aws-cloudhsm)
 	- [Key Management Service (KMS)]()
-	- [AWS Trusted Advisor](#aws-trusted-advisor)
 	- [Amazon GuardDuty](#amazon-guardduty)
 	- [Amazon IAM](#amazon-iam)
 - Auditing, Monitoring, Logging
+	- [Amazon CloudWatch](#amazon-cloudwatch)
+	- [AWS Trusted Advisor](#aws-trusted-advisor)
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
+	- [Amazon EBS volumes types](#amazon-ebs-volumes-types)
 - Content Delivery and Networking Technology
 	- [Popular HTTTP code](#popular-htttp-code)
   	- [VPC peering connection](#vpc-peering-connection)
 	- [Amazon VPC](#amazon-vpc)
+   	- [Amazon Load Balancers](#amazon-load-balancers)
+ 	- [AWS Network Access Control List (ACL)](#aws-network-access-control-list-acl)
+ 	- [AWS Security Groups](#aws-security-groups)
+ 	- [AWS Internet Gateway](#aws-internet-gateway)
 - Database Technology
 - Development, Messaging, and Deployment
+	- [Amazon Simple Notification Service (SNS)](#amazon-simple-notification-service-sns)
+	- [Amazon Simple Queue Service (SQS)](#amazon-simple-queue-service-sqs)
 - Migration and Transfer
 - Artificial Intelligence and Machine Learning
 - Pricing, Billing, Support and Governance
 	- [AWS Trust & Safety team](#aws-trust--safety-team)
 	- [AWS Support plans](#aws-support-plans)
    	- [AWS Partner Network]()
-   	- [Amazon Load Balancers](#amazon-load-balancers)
- 	- [AWS Network Access Control List (ACL)](#aws-network-access-control-list-acl)
- 	- [AWS Security Groups](#aws-security-groups)
- 	- [AWS Internet Gateway](#aws-internet-gateway)
+   	- [Infrastructure Event Management]()
+
 
  - [AWS Compute Optimizer](#aws-compute-optimizer)
- - [Amazon EBS volumes types](#amazon-ebs-volumes-types)
  - [Amazon Elastic Load Balancer (ELB)](#amazon-elastic-load-balancer-elb)
  - [AWS Scalability](#aws-scalability)
- - [Amazon Simple Notification Service (SNS)](#amazon-simple-notification-service-sns)
- - [Amazon Simple Queue Service (SQS)](#amazon-simple-queue-service-sqs)
  - [AWS Inspector](#aws-inspector)
  - [AWS Personal Health Dashboard](#aws-personal-health-dashboard)
  - [AWS X-Ray](#aws-x-ray)
@@ -73,7 +76,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Cognito](#amazon-cognito)
  - [AWS Organizations](#aws-organizations)
  - [AWS CloudTrail](#aws-cloudtrail)
- - [Amazon CloudWatch](#amazon-cloudwatch)
  - [Amazon DynamoDB](#amazon-dynamodb)
  - [AWS Database SQL type](#aws-database-sql-type)
  - [AWS Device Farm](#aws-device-farm)
@@ -269,7 +271,7 @@ AWS Scaling **horizontally**:
 	- Cost optimization (Low utilization on EC2 instances)
 	- Security (Open-access permissions for S3 buckets, Exposed access keys)
 	- Performance
-	- Service limits
+	- Service limits (has a service limit dashboard)
 	- Fault tolerance
 - Trusted Advisor can't check:
 	- Amazon services down
@@ -870,6 +872,9 @@ With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in 
 Note: Although **network access control lists** can be used to block or deny traffic, these operate at the subnet level (covering all instances in the subnet with the same ruleset), not per instance as the question specifies.
 - Route tables: tell traffic where it should go next to reach its destination.
 - NAT gateway: Is required to allow resources in a private subnet to access the internet. 
+
+### Infrastructure Event Management
+AWS Infrastructure Event Management is a structured program available to **Enterprise Support** customers that helps you plan for large-scale events, such as product or application launches, infrastructure migrations, and marketing events. It is also available to Business Support customers, but they need to pay an additional fee to use this service and cannot use it normally as part of their plan.
 
 ***
 ### Notes
