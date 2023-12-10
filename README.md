@@ -19,6 +19,8 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS Well-Architected Framework](#aws-well-architected-framework)
  	- [Cloud Computing](#cloud-computing)
 	- [Six advantages of Amazon Cloud (Benefits)](#six-advantages-of-amazon-cloud-benefits)
+- Security and Compliance
+	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
@@ -66,7 +68,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [AWS Database SQL type](#aws-database-sql-type)
  - [AWS Device Farm](#aws-device-farm)
  - [AWS Config](#aws-config)
- - [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
  - [Amazon RDS](#amazon-rds)
  - [AWS Auto Scaling Group](#aws-auto-scaling-group)
  - [AWS Auto Scaling](#aws-auto-scaling)
