@@ -24,6 +24,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Content Delivery and Networking Technology
 - Pricing, Billing, Support and Governance
 	- [AWS Trust & Safety team](#aws-trust--safety-team)
+	 -[AWS Support plans](#aws-support-plans)
    	- AWS Partner Network()
 
  - [AWS Compute Optimizer](#aws-compute-optimizer)
@@ -55,7 +56,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Elastic Container Registry (ECR)](#amazon-elastic-container-registry-ecr)
  - [Virtual Private Gateway](#virtual-private-gateway)
  - [VPC peering connection](#vpc-peering-connection)
- - [AWS ](#aws-support-plans)
  - [Amazon IAM](#amazon-iam)
  - [Amazon Cognito](#amazon-cognito)
  - [AWS Organizations](#aws-organizations)
