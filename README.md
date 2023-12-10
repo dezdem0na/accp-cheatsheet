@@ -323,7 +323,13 @@ AWS Scaling **horizontally**:
 
 ### AWS Elastic Beanstalk
 -  The **fastest** and **simplest** way to get web applications up and running on AWS.
--  It is more of a **PaaS** service and is focused on <ins>web applications</ins> not infrastructure.
+-  Create mobile API backends for your applications
+-  Deploy scalable web applications in minutes without the complexity of provisioning and managing underlying infrastructure.
+-  Wide selection of application platforms (Java, .NET, Node.js, PHP, Ruby, Python, Go, and Docker)
+-  Application Health (collects 40+ key metrics and attributes)
+-  Updates and management
+-  Meets the criteria for ISO, PCI, SOC 1, SOC 2, and SOC 3 compliance along with the criteria for HIPAA eligibility.
+-  Uses Elastic Load Balancing and Auto Scaling 
 
 ### AWS Lambda
 - Lambda functions can be invoked in response to **events**.
