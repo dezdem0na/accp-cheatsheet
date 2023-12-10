@@ -906,4 +906,3 @@ Use the Report Amazon AWS abuse form to report suspected abuse of AWS resources 
 	-  Use an AWS service that is in scope for PCI compliance and apply PCI controls at the application layer.
 -  In IAM user access and secrert keys:
 	-  The customer is responsible for **rotating** keys.
--  Which compute hosting model should be accounted for in the Total Cost of Ownership (TCO) when undertaking a cost analysis that allows physical isolation of a customer workload? **Dedicated Hosts**.
