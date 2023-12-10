@@ -70,6 +70,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Simple Workflow Service (SWF)](#amazon-simple-workflow-service-swf)
  - [Amazon Security Token Service (STS)](#amazon-security-token-service-sts)
  - [AWS Server Migration Service (SMS)](#aws-server-migration-service-sms)
+ - [AWS Database Migration Service (DMS)]()
  - [Amazon DevPay](#amazon-devpay)
  - [Amazon Elasticsearch Service](#amazon-elasticsearch-service)
  - [Amazon Athena](#amazon-athena)
@@ -575,6 +576,8 @@ AWS Scaling **horizontally**:
 ### AWS Server Migration Service (SMS)
 - It's an **agentless** service which makes it easier and faster for you migrate on-premises workloads to AWS.
 - You can migrarte Virtual Machines from **VMware vSphere** and **Windows Hyper-V** to AWS with this sevice.
+
+### AWS Database Migration Service (DMS)
 
 ### Amazon DevPay
 - That makes it easy for budinesses to **sell applications** that are built in, or run on top of, *Amazon Web Services*.
