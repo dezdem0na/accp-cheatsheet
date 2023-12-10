@@ -335,7 +335,7 @@ The framework is based on six pillars:
 - Cost optimization
 - Sustainability
 
-Design principles:
+Performance efficiency Design principles:
 - Democratize advanced technologies: Make advanced technology implementation easier for your team by delegating complex tasks to your cloud vendor.
 - Go global in minutes: Deploy your workload in multiple AWS Regions
 - Use serverless architectures: Serverless architectures remove the need for you to run and maintain physical servers for traditional compute activities. 
