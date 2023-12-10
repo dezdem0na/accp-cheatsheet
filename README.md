@@ -20,6 +20,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  	- [Cloud Computing](#cloud-computing)
 	- [Advantages of Amazon Cloud (Benefits)](#advantages-of-amazon-cloud-benefits)
 	- [Geographical Services](#geographical-services)
+	- [AWS Global Infrastructure]()
 - Security, Compliance, and Governance
 	- [AWS Shield](#aws-shield)
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
