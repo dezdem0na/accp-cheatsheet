@@ -22,7 +22,9 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
-- Pricing, Billing, and Support
+- Pricing, Billing, Support and Governance
+	- [AWS Trust & Safety team](#aws-trust--safety-team)
+   	- AWS Partner Network()
 
  - [AWS Compute Optimizer](#aws-compute-optimizer)
  - [Amazon EBS volumes types](#amazon-ebs-volumes-types)
@@ -112,7 +114,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Macie](#amazon-macie)
  - [AWS OpsWorks](#aws-opsworks)
  - [Geographical Services](#geographical-services)
- - [AWS Trust & Safety team](#aws-trust--safety-team)
  - [Notes](#notes)
 
 ***
