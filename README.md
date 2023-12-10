@@ -2,13 +2,15 @@
 
 These are notes regarding ACCP exam which were gradually completed while studying the exam objectives.
 
-[The new AWS Cloud Practitioner (CLF-C02): What to expect](https://www.pluralsight.com/resources/blog/cloud/new-aws-clf-c02-exam0)
-
 You can find every updated information in this [link](https://aws.amazon.com/certification/certified-cloud-practitioner/) which is the official and reputable information.
 
 Also you can donload [the official exam guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf).
 
-Another profitable resource is the [whitepaper Overview of Amazon Web Services](https://d0.awsstatic.com/whitepapers/aws-overview.pdf).
+Another profitable resource is the [whitepaper Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html).
+
+[Exam Prep Official Question Set](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/aws-certified-cloud-practitioner-official-practice-question-set-clf-c02-english)
+
+[The new AWS Cloud Practitioner (CLF-C02): What to expect](https://www.pluralsight.com/resources/blog/cloud/new-aws-clf-c02-exam0)
 
 * * *
 
