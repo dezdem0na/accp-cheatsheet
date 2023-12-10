@@ -24,6 +24,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS CloudHSM](#aws-cloudhsm)
 	- (Key Management Service (KMS))()
 	- [AWS Trusted Advisor](#aws-trusted-advisor)
+	- [Amazon GuardDuty](#amazon-guardduty)
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
@@ -112,7 +113,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Global Accelerator](#amazon-global-accelerator)
  - [AWS Data Sync](#aws-data-sync)
  - [AWS CodePipeline ](#aws-codepipeline)
- - [Amazon GuardDuty](#amazon-guardduty)
  - [Amazon Macie](#amazon-macie)
  - [AWS OpsWorks](#aws-opsworks)
  - [Geographical Services](#geographical-services)
@@ -804,6 +804,7 @@ Security Design principles:
 ### Amazon GuardDuty
 - Amazon GuardDuty is a **threat detection** service that **continuously monitors** your **AWS accounts** and **workloads** for malicious activity and delivers detailed security findings for visibility and remediation.
 - For implementing a threat detection service that continuously monitors malicious activities and **unauthorized behaviors** protect AWS account, workloads and data stored in Amazon S3 we use this service.
+- Not for DDoS protection
 
 ### Amazon Macie
 - It can be used to **detect users' personal credit card numbers** from data stored in Amazon **S3**.
