@@ -398,7 +398,7 @@ AWS Scaling **horizontally**:
 	- Access keys
 	- Server certificates
 - Best practice to ensure the security of AWS account
-	- **Don’t generate** an access key for the **root account** user
+	- **Don’t generate** an access key for the **root account** user. Delete your root access keys.
 	- Use **Temporary Security Credentials** (IAM Roles) Instead of Long-Term Access Keys
 	- Manage IAM User Access Keys Properly
 - You can enable single sign-on (**SSO**) to your AWS accounts by using **federation** and AWS Identity and Access Management (IAM).
