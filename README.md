@@ -664,10 +664,11 @@ AWS Scaling **horizontally**:
 	- **Storage Optimized**: instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage; these are optimized to deliver tens of thousands of low-latency, random I/O operations per second (IOPS) to applications.
 	- **High Performance Computing**: instances are built to offer the best price performance for running HPC workloads at scale on AWS; these are ideal for applications that benefit from high-performance processors such as large, complex simulations and deep learning workloads.
 - EC2 pricing model:
-	- **On-Demand**: It is the **most economical** option that will ensure **no interruptions**.
-	- **Spot**: They are good for **short term requirements** as they can be very economical. However, you may find that the instance is terminated if the spot market price moves.
-	- **Dedicated Instance**: They are EC2 instances that run on hardware dedicated to a single customer.
-	- **Reserved**: They are good for **long-term**, static requirements as you must lock-in for **1 or 3 years** in return for a decent discount.
+	- **On-Demand**: Fixed price billed by the second. No upfront payments or commitments. No interruption. For unpredictable workloads. If workload won't run longer that a year. For developing, HA, Disaster Recovery, Capacity Assurance. **Capacity Reservations** hold capacity whether or not you run an instance.
+	- **Spot**: Take advantage of unused EC2 capacity. When start and stop time don't matter. Can interrupt workload. **THE CHEAPEST OPTION**. Pay at the beginning of the hour.
+	- **Dedicated Host**: Pay for a physical server. Bring ypur own server-bound software license (per socket, core, VM). Corporate compliance requirements around tenancy (hardware sharing resourses with other companies). No sharing.**Dedicated Instance** runs on the host.
+	- **Reserved Instances**: Commit to a SPECIFIC instance type for 1 to 3 years. Pay upfront. App requires a capacity reservation. Reserve capacity.
+	- **Savings Plan**: Commit to compute usage for 1 to 3 years (per hour). Lower bill across multiple compute (EC2, Lambda, Fargate, SageMaker). No capacity reservation.
 - It offers SLAs of **95%** for *each region*.
 - EC2 **benefits** over using non-cloud servers:
 	- Elastic Web-Scale computing
