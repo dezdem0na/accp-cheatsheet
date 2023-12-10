@@ -422,7 +422,9 @@ AWS Scaling **horizontally**:
 	-  Always enable **multi-factor** authentication (MFA) on the root account
 	-  Always use a **strong and complex password** on the root account
 	-  The **Paying account** should be used for **billing purposes only**. Do not deploy resources into the Paying account
--  With below options organizations can **reduce their cost**:
+- Features:
+	- Service control policies (SCPs). Central governance and management for multiple accounts. No permissions are granted by an SCP. An SCP defines a guardrail, or sets limits. **The most efficient way to establish controls that all IAM users within an organization adhere to.**
+- With below options organizations can **reduce their cost**:
 	-  "Create an AWS Organization configuration linking the accounts"
 	-  "Setup consolidated billing between the accounts"
 - Volume pricing discounts applied **across multiple accounts**.
@@ -887,7 +889,6 @@ Use the Report Amazon AWS abuse form to report suspected abuse of AWS resources 
 - You use a **key pair** to decrypt the Administrator password through the console or using the CLI (For Amazon EC2 **Windows** instance).
 - An **RTMP** distribution (It is a type of Amazon CloudFront distribution) is used to distribute streaming media files using **Adobe Flash** Media Server’s RTMP protocol.
 - The **public cloud** is offered under a purely **pay as you go** model, and allows companies to completely **avoid** *CAPEX costs*.
-- **SQL** stands for *Structured Query Language*.
 - AWS **Lambda** and Amazon **API Gateway** are both **app-facing** components of the AWS Serverless infrastructure.
 - Amazon **DynamoDB** and **EFS** are *database and storage* services of the serverless infrastructure.
 - The *EC2 container registry* (**ECR**) is a managed AWS Docker registry service for storing, managing and deploying Docker images.
