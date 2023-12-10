@@ -23,6 +23,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 	- [AWS CloudHSM](#aws-cloudhsm)
 	- (Key Management Service (KMS))()
+	- [AWS Trusted Advisor](#aws-trusted-advisor)
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
@@ -42,7 +43,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Simple Notification Service (SNS)](#amazon-simple-notification-service-sns)
  - [Amazon Simple Queue Service (SQS)](#amazon-simple-queue-service-sqs)
  - [AWS Inspector](#aws-inspector)
- - [AWS Trusted Advisor](#aws-trusted-advisor)
  - [AWS Personal Health Dashboard](#aws-personal-health-dashboard)
  - [AWS X-Ray](#aws-x-ray)
  - [AWS TCO Calculator](#aws-tco-calculator)
