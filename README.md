@@ -743,7 +743,7 @@ On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS serv
 	- **High Performance Computing**: instances are built to offer the best price performance for running HPC workloads at scale on AWS; these are ideal for applications that benefit from high-performance processors such as large, complex simulations and deep learning workloads.
 - EC2 pricing model:
 	- **On-Demand**: Fixed price billed by the second. No upfront payments or commitments. No interruption. For unpredictable workloads. If workload won't run longer that a year. For developing, HA, Disaster Recovery, Capacity Assurance. **Capacity Reservations** hold capacity whether or not you run an instance.
-	- **Spot**: Take advantage of unused EC2 capacity. When start and stop time don't matter. Can interrupt workload. **THE CHEAPEST OPTION**. Pay at the beginning of the hour.
+	- **Spot**: Take advantage of unused EC2 capacity. When start and stop time don't matter. Can interrupt workload. **THE CHEAPEST OPTION**. Pay at the beginning of the hour. No capacity reservation.
 	- **Dedicated Host**: Pay for a physical server. Bring ypur own server-bound software license (per socket, core, VM). Corporate compliance requirements around tenancy (hardware sharing resourses with other companies). No sharing.**Dedicated Instance** runs on the host.
 	- **Reserved Instances**: Commit to a SPECIFIC instance type for 1 to 3 years. Pay upfront. App requires a capacity reservation. Reserve capacity.
 	- **Savings Plan**: Commit to compute usage for 1 to 3 years (per hour). Lower bill across multiple compute (EC2, Lambda, Fargate, SageMaker). No capacity reservation.
