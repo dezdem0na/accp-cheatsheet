@@ -331,6 +331,8 @@ The framework is based on six pillars:
 - Operation excellence
 	- Deploy smaller, reversible changes.
 - Security
+	- Track who did what and when.
+	- Assign only the least privilege required.
 - Reliability
 - Performance efficiency
 	- Information gathered through the evaluation process to actively drive adoption of new services or resources.
