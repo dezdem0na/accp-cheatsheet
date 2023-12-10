@@ -20,19 +20,24 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  	- [Cloud Computing](#cloud-computing)
 	- [Six advantages of Amazon Cloud (Benefits)](#six-advantages-of-amazon-cloud-benefits)
 	- [Geographical Services](#geographical-services)
-- Security and Compliance
+- Security, Compliance, and Governance
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 	- [AWS CloudHSM](#aws-cloudhsm)
 	- [Key Management Service (KMS)]()
 	- [AWS Trusted Advisor](#aws-trusted-advisor)
 	- [Amazon GuardDuty](#amazon-guardduty)
 	- [Amazon IAM](#amazon-iam)
+- Auditing, Monitoring, Logging
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
 	- [Popular HTTTP code](#popular-htttp-code)
   	- [VPC peering connection](#vpc-peering-connection)
 	- [Amazon VPC](#amazon-vpc)
+- Database Technology
+- Development, Messaging, and Deployment
+- Migration and Transfer
+- Artificial Intelligence and Machine Learning
 - Pricing, Billing, Support and Governance
 	- [AWS Trust & Safety team](#aws-trust--safety-team)
 	- [AWS Support plans](#aws-support-plans)
