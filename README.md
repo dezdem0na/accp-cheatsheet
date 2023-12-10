@@ -917,3 +917,4 @@ Note: Although **network access control lists** can be used to block or deny tra
 	-  Use an AWS service that is in scope for PCI compliance and apply PCI controls at the application layer.
 -  In IAM user access and secrert keys:
 	-  The customer is responsible for **rotating** keys.
+- Access control lists (ACLs) are one of the resource-based options.
