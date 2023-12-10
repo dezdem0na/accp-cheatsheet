@@ -149,6 +149,9 @@ copying of objects across buckets in different AWS Regions.
 	- Metadata
 - **Object lifecycle management** can be used with objects so that they are stored cost effectively throughout their lifecycle. Objects can be transitioned to another storage class or expired. It enables you to **set rules** to **automatically transfer** objects between different storage classes at defined time intervals.
 - **Standard-IA** and **One Zone-IA** both have a minimum storage duration charge of **30** days
+- **Bucket policies** allow you to control access to entire buckets.
+- You can use **ACLs** to grant basic read/write permissions to other AWS accounts.
+
 	
 ### Six advantages of Amazon Cloud (Benefits)
 - Trade capital expense for variable expense.
@@ -208,6 +211,8 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 - By default: all in - all out
 - It operates on VPC subnet level
 - Not used in S3
+- Network ACLs operate at the **subnet** level NOT AZ level. It provides a firewall / security layer at the subnet level.
+- Network ACLs are **stateless** so you must create rules in both directions to allow traffic through.
 
 ### AWS Security Groups
 - Stateful firewalls
@@ -855,6 +860,7 @@ Use the Report Amazon AWS abuse form to report suspected abuse of AWS resources 
 ### Amazon VPC
 With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in a logically isolated virtual network that you've defined.
 
+- Amazon VPC is a **free of charge** service.
 - Security groups: act like built-in firewalls for your virtual servers — the rules you create define what is allowed to talk to your instances and how.
 Note: Although **network access control lists** can be used to block or deny traffic, these operate at the subnet level (covering all instances in the subnet with the same ruleset), not per instance as the question specifies.
 - Route tables: tell traffic where it should go next to reach its destination.
@@ -865,9 +871,6 @@ Note: Although **network access control lists** can be used to block or deny tra
 - Deploying to multiple AZs replicates applications across multiple data centers in the same Region and provides High Availability. Multi-Region deployments are best for applications that have extremely high availability requirements.
 - A **Region** is a geographical area of the world that is a collection of data centers logically grouped into Availability Zones. **Availability Zones (AZs)** consist of 1 or more physically separated data centers.
 - **Loose Coupling**: a desirable attribute of an IT system is that it can be broken into smaller, loosly coupled components.
-- Amazon VPC is a **free of charge** service.
-- Network ACLs operate at the **subnet** level NOT AZ level. It provides a firewall / security layer at the subnet level.
-- Network ACLs are **stateless** so you must create rules in both directions to allow traffic through.
 - **Bootstrapping** and **Infrastructure as code** are two echniques for using automated, repeatable processes that are fast and avoid human error.
 - **Golden Image Instances**: a golden image is a snapshot of a particular state for that resource (e.g. EC2 instances, RDS instances, EBS volumes).
 - "**Direct Connect**" and "**VPN CloudHub**" are two ways of connecting to an *Amazon VPC* from an *on-premise* data center.
