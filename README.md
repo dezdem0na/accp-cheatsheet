@@ -166,6 +166,7 @@ copying of objects across buckets in different AWS Regions.
 - **Standard-IA** and **One Zone-IA** both have a minimum storage duration charge of **30** days
 - **Bucket policies** allow you to control access to entire buckets.
 - You can use **ACLs** to grant basic read/write permissions to other AWS accounts.
+- A customer has set up an Amazon S3 bucket and wants to limit access to specific users: You can add a bucket access policy directly to an Amazon S3 bucket to grant IAM users access permissions for the bucket and the objects in it. While you can control access to a bucket with user policies, this is not the most efficient way to achieve this.
 
 ### Advantages of Amazon Cloud (Benefits)
 - Replace upfront capital expenses with low variable costs. (Trade capital expense for variable expense)
