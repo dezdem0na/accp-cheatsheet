@@ -773,6 +773,7 @@ AWS Scaling **horizontally**:
 	- You can connect to all AZs **within the VPC** of the **local region**.
 	- You can connect to public services in **remote regions**.
 - You can use **AWS Direct Connect Gateway** for connecting a company from their on-premises network to VPCs in **multiple regions** using **private connections**
+- Hybrid Deployment Model uses Direct Connect.
 
 ### AWS Snow family
 - AWS Snowcone is a small, rugged, and secure edge computing and data transfer device. It features 2 CPUs, 4 GB of memory, and up to 14 TB of usable storage.
