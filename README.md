@@ -29,6 +29,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
+	- Amazon VPC()
 - Pricing, Billing, Support and Governance
 	- [AWS Trust & Safety team](#aws-trust--safety-team)
 	 -[AWS Support plans](#aws-support-plans)
@@ -848,6 +849,13 @@ Security Design principles:
 
 ### AWS Trust & Safety team
 Use the Report Amazon AWS abuse form to report suspected abuse of AWS resources (Web content/non-copyright intellectual property, Copyright , Email abuse, Network activity, Hacking).
+
+### Amazon VPC
+With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in a logically isolated virtual network that you've defined.
+
+- Security groups: act like built-in firewalls for your virtual servers — the rules you create define what is allowed to talk to your instances and how.
+Note: Although **network access control lists** can be used to block or deny traffic, these operate at the subnet level (covering all instances in the subnet with the same ruleset), not per instance as the question specifies.
+- Route tables: tell traffic where it should go next to reach its destination.
 
 ***
 ### Notes
