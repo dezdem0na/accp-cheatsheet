@@ -334,12 +334,14 @@ The framework is based on six pillars:
 - Reliability
 - Performance efficiency
 	- Information gathered through the evaluation process to actively drive adoption of new services or resources.
+	- Use multi-region deployments.
+	- Use a serverless architecture first.
 - Cost optimization
 - Sustainability
 
 Performance efficiency Design principles:
 - Democratize advanced technologies: Make advanced technology implementation easier for your team by delegating complex tasks to your cloud vendor.
-- Go global in minutes: Deploy your workload in multiple AWS Regions
+- Go global in minutes: Deploy your workload in multiple AWS Regions.
 - Use serverless architectures: Serverless architectures remove the need for you to run and maintain physical servers for traditional compute activities. 
 - Experiment more often: With virtual and automatable resources, you can quickly carry out comparative testing using different types of instances, storage, or configurations.
 - Consider mechanical sympathy: Consider data access patterns when you select database or storage for your workload.
