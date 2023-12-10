@@ -620,6 +620,7 @@ AWS Scaling **horizontally**:
 	- Latency-based.
 	- Failover.
 	- Geolocation.
+ - Can be used to route users to infrastructure outside of AWS or to the nearest data center to reduce latency.
 
 ### Amazon CloudFront
 - It has a **global scope**.
