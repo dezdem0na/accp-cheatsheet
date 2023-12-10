@@ -217,6 +217,7 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 - It is possible to have **inbound** and **outbound** rules in a security group
 - It operates on EC2 instance level
 - Not used in S3
+- The security group acts as a virtual firewall to protect the EC2 instance. (A company wants to block network traffic from accessing an EC2 instance)
 
 ### AWS Internet Gateway
 - Do not have `allow` or `deny` rules
