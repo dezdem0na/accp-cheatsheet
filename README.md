@@ -15,8 +15,15 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 * * *
 
 ### Table of contents
- - [Amazon S3](#amazon-s3)
- - [Six advantages of Amazon Cloud (Benefits)](#six-advantages-of-amazon-cloud-benefits)
+- Foundations of Cloud Computing
+	- [AWS Well-Architected Framework](#aws-well-architected-framework)
+ 	- [Cloud Computing](#cloud-computing)
+	- [Six advantages of Amazon Cloud (Benefits)](#six-advantages-of-amazon-cloud-benefits)
+- Storage Technology
+	- [Amazon S3](#amazon-s3)
+- Content Delivery and Networking Technology
+- Pricing, Billing, and Support
+
  - [AWS Compute Optimizer](#aws-compute-optimizer)
  - [Amazon EBS volumes types](#amazon-ebs-volumes-types)
  - [Amazon Elastic Load Balancer (ELB)](#amazon-elastic-load-balancer-elb)
@@ -35,11 +42,9 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Elastic Block Store (EBS)](#amazon-elastic-block-store-ebs)
  - [Amazon SageMaker](#amazon-sagemaker)
  - [Amazon Kinesis](#amazon-kinesis)
- - [Cloud Computing](#cloud-computing)
  - [AWS CloudFormation](#aws-cloudformation)
  - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
  - [AWS Lambda](#aws-lambda)
- - [AWS Well-Architected Framework](#aws-well-architected-framework)
  - [AWS WAF](#aws-waf)
  - [AWS AD Connector](#aws-ad-connector)
  - [AWS Simple AD](#aws-simple-ad)
@@ -107,7 +112,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Macie](#amazon-macie)
  - [AWS OpsWorks](#aws-opsworks)
  - [Geographical Services](#geographical-services)
- - [AWS Trust & Safety team]()
+ - [AWS Trust & Safety team](#aws-trust--safety-team)
  - [Notes](#notes)
 
 ***
