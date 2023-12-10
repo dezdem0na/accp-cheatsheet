@@ -21,6 +21,8 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [Six advantages of Amazon Cloud (Benefits)](#six-advantages-of-amazon-cloud-benefits)
 - Security and Compliance
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
+	- [AWS CloudHSM](#aws-cloudhsm)
+	- (Key Management Service (KMS))()
 - Storage Technology
 	- [Amazon S3](#amazon-s3)
 - Content Delivery and Networking Technology
@@ -71,7 +73,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon RDS](#amazon-rds)
  - [AWS Auto Scaling Group](#aws-auto-scaling-group)
  - [AWS Auto Scaling](#aws-auto-scaling)
- - [AWS CloudHSM](#aws-cloudhsm)
  - [AWS Glacier](#aws-glacier)
  - [AWS Storage Gateway Volume Gateway](#aws-storage-gateway-volume-gateway)
  - [AWS Step Functions](#aws-step-functions)
@@ -577,7 +578,7 @@ Security Design principles:
 - horizontal scaling -> scaling-out
 
 ### AWS CloudHSM
-- Is a **cloud-based hardware security module** (HSM) that allows you to easily <ins>add secure key storage</ins> and <ins>high performance crypto operations</ins> to your AWS applications.
+- **Cloud-based hardware security module** (HSM) that allows you to add secure key storage and high performance crypto operations to your AWS applications.
 - CloudHSM has **no upfront costs** and provides the ability to *start* and *stop* HSMs **on-demand**, allowing you to provision cpacity when and where it is needed quickly and cost-effectively.
 - CloudHSM is a managed service that **automates** <ins>time-consuming administrative tasks</ins>, such as hardware provisioning, **software patching**, **high availability**, and **backups**.
 - It uses a highly secure *hardware storage device* to **store encryption keys**
