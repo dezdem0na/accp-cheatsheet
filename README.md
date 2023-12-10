@@ -658,6 +658,7 @@ Security Design principles:
 	- Failover.
 	- Geolocation.
  - Can be used to route users to infrastructure outside of AWS or to the nearest data center to reduce latency.
+ - DDoS protection via Shield Advanced is supported on several services, including Route 53.
 
 ### Amazon CloudFront
 - It has a **global scope**.
