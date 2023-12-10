@@ -1,40 +1,12 @@
 # AWS Certified Cloud Practitioner (ACCP) Exam Notes
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/geekestan?label=geekestan&style=plastic&logo=twitter&color=blue)](https://twitter.com/geekestan)
-[![GitHub Follow](https://img.shields.io/github/followers/hamidgholami?label=hamidgholami&style=plastic&logo=github&color=green)](https://github.com/hamidgholami)
-[![Linkedin Badge](https://img.shields.io/badge/hamid--gholami-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/hamid-gholami/)
-<!--
-[![Youtube Badge](https://img.shields.io/badge/-geekestan-red?style=plastic&&logo=youtube&message=geekestan&logoColor=white)](https://www.youtube.com/channel/UCBlOVqLEwcvFNG03KDAVTlw)
--->
-[![Twitter Follow](https://img.shields.io/twitter/follow/silversonicaxel?label=silversonicaxel&style=plastic&logo=twitter&color=black)](https://twitter.com/silversonicaxel)
-[![GitHub Follow](https://img.shields.io/github/followers/silversonicaxel?label=silversonicaxel&style=plastic&logo=github&color=green)](https://github.com/silversonicaxel)
-[![Linkedin Badge](https://img.shields.io/badge/alessandrorabitti-LinkedIn-black?logo=linkedin)](https://www.linkedin.com/in/alessandrorabitti/)
-
-
 These are notes regarding ACCP exam which were gradually completed while studying the exam objectives.
 
-> Who should take this exam?<br>
->
->[The AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) (*CLF-C01*) exam is intended for individuals<br>who can effectively demonstrate an overall knowledge of the AWS Cloud<br>independent of a specific job role.
+[The new AWS Cloud Practitioner (CLF-C02): What to expect](https://www.pluralsight.com/resources/blog/cloud/new-aws-clf-c02-exam0)
 
 You can find every updated information in this [link](https://aws.amazon.com/certification/certified-cloud-practitioner/) which is the official and reputable information.
 
-
-The following table lists the main content domains and their weightings.<br>
-
-<div align="center">
-
-| Domain                            | % of Exam |
-|:-----------------------------------|:-----------:|
-| Domain 1: Cloud Concepts          | 26%       |
-| Domain 2: Security and Compliance | 25%       |
-| Domain 3: Technology              | 33%       |
-| Domain 4: Billing and Pricing     | 16%       |
-| **Total**                             | **100%**      |
-
-</div>
-
-Also you can download [the official exam guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf).
+Also you can donload [the official exam guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf).
 
 Another profitable resource is the [whitepaper Overview of Amazon Web Services](https://d0.awsstatic.com/whitepapers/aws-overview.pdf).
 
