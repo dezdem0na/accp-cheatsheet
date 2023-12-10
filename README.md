@@ -408,6 +408,7 @@ AWS Scaling **horizontally**:
 	- Make inactive
 	- Delete
 - IAM Policy Simulator evaluates the policies that you choose and determines the effective permissions for each of the actions that you specify.
+- The IAM credential report lists all the users and the status of their various credentials, including passwords, access keys, server certificates, and MFA devices in order to support auditing and compliance efforts.
 
 ### Amazon Cognito
 - Amazon Cognito Identity Pool provides temporary AWS credentials for users who are guests (unauthenticated) and for users who have been authenticated and received a token. An identity pool is a store of user identity data specific to your account.
