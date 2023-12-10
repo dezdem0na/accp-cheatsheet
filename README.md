@@ -17,7 +17,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 ### Table of contents
 - Foundations of Cloud Computing
 	- [AWS Well-Architected Framework](#aws-well-architected-framework)
- 	- [Cloud Computing](#cloud-computing)
 	- [Advantages of Amazon Cloud (Benefits)](#advantages-of-amazon-cloud-benefits)
 	- [Geographical Services](#geographical-services)
 	- [AWS Global Infrastructure]()
@@ -316,11 +315,6 @@ AWS Scaling **horizontally**:
 	- Amazon DynamoDB
 	- Amazon Redshift
 	- Amazon S3
-
-### Cloud Computing
-- Cloud computing is the **on-demand** delivery of compute power.
-- With cloud computing you get to <ins>benefit from massive economies of scale</ins>.
-- With cloud computing you can <ins>increase your speed and agility</ins>.
 
 ### AWS CloudFormation
 - It provides a **common language** for you to <ins>describe</ins> and <ins>provision</ins> all the infrastructure resources in your cloud environment.
