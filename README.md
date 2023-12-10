@@ -105,7 +105,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon CodeStar](#amazon-codestar)
  - [Amazon Cloud9](#amazon-cloud9)
  - [Amazon CodeDeploy](#amazon-codedeploy)
- - [Amazon Lightsail](#amazon-lightsail)
+ - [Amazon ](#amazon-)
  - [Amazon EC2](#amazon-ec2)
  - [AWS Cost Explorer](#aws-cost-explorer)
  - [AWS Cost Anomaly Detection](#aws-cost-anomaly-detection)
@@ -703,12 +703,13 @@ Security Design principles:
  - You can use several different kinds of origins with CloudFront. You can use an Amazon S3 bucket, a MediaStore container, a MediaPackage channel, an Application Load Balancer, or an AWS Lambda function URL (valid domain name).
 
 ### Amazon Lightsail
-- It provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites, web applications, and databases in the cloud. Also it provides **preconfigured VPS** that inclouds **everything required to deploy** or create a **DB**.
+- It provides developers compute, storage, and networking capabilities to deploy and manage websites, web applications, and databases in the cloud. Also it provides **preconfigured VPS** that inclouds **everything required to deploy** or create a **DB**.
 - The **product set** includes:
 	- **VPS** (Virtual Private Servers)
 	- Managed **MySQL** databases
 	- **HA** storage
 	- **Load balancing**
+- Launch a WordPress website.
 
 ### Amazon EC2
 - Types:
