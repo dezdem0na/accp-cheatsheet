@@ -128,6 +128,10 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 
 ***
 ### AWS Global Infrastructure
+- Deploying to multiple AZs replicates applications across multiple data centers in the same Region and provides High Availability.
+- Multi-Region deployments are best for applications that have extremely high availability requirements.
+- A **Region** is a geographical area of the world that is a collection of data centers logically grouped into Availability Zones.
+- **Availability Zones (AZs)** consist of 1 or more physically separated data centers.
 - Regions:
 	- A Region is a geographic area that hosts 2 or more Availability Zones. 
 	- They are grouped in geographic locations.
@@ -910,8 +914,6 @@ AWS Infrastructure Event Management is a structured program available to **Enter
 
 ***
 ### Notes
-- Deploying to multiple AZs replicates applications across multiple data centers in the same Region and provides High Availability. Multi-Region deployments are best for applications that have extremely high availability requirements.
-- A **Region** is a geographical area of the world that is a collection of data centers logically grouped into Availability Zones. **Availability Zones (AZs)** consist of 1 or more physically separated data centers.
 - **Loose Coupling**: a desirable attribute of an IT system is that it can be broken into smaller, loosly coupled components.
 - **Bootstrapping** and **Infrastructure as code** are two echniques for using automated, repeatable processes that are fast and avoid human error.
 - **Golden Image Instances**: a golden image is a snapshot of a particular state for that resource (e.g. EC2 instances, RDS instances, EBS volumes).
