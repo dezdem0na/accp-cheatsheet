@@ -22,7 +22,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Security and Compliance
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 	- [AWS CloudHSM](#aws-cloudhsm)
-	- (Key Management Service (KMS))()
+	- [Key Management Service (KMS)]()
 	- [AWS Trusted Advisor](#aws-trusted-advisor)
 	- [Amazon GuardDuty](#amazon-guardduty)
 	- [Amazon IAM](#amazon-iam)
@@ -683,6 +683,7 @@ Security Design principles:
 	- EC2 instance.
 	- Elastic Load Balancer.
 	- Route 53.
+ - You can use several different kinds of origins with CloudFront. You can use an Amazon S3 bucket, a MediaStore container, a MediaPackage channel, an Application Load Balancer, or an AWS Lambda function URL (valid domain name).
 
 ### Amazon Lightsail
 - It provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites, web applications, and databases in the cloud. Also it provides **preconfigured VPS** that inclouds **everything required to deploy** or create a **DB**.
