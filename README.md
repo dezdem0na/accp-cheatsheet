@@ -903,6 +903,7 @@ On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS serv
 - To orchestrate and **automate** the **various phases** involved in the release of application updates in-line with a predefined release model.
 
 ### Amazon GuardDuty
+The most efficient intelligent threat detection service that can be used to analyze malicious or unauthorized activity and continuously monitor CloudTrail event logs, Amazon VPC Flow Logs, and DNS logs.
 - Amazon GuardDuty is a **threat detection** service that **continuously monitors** your **AWS accounts** and **workloads** for malicious activity and delivers detailed security findings for visibility and remediation.
 - For implementing a threat detection service that continuously monitors malicious activities and **unauthorized behaviors** protect AWS account, workloads and data stored in Amazon S3 we use this service.
 - Not for DDoS protection
