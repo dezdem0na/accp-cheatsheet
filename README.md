@@ -41,7 +41,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [Amazon VPC](#amazon-vpc)
    	- [Amazon Load Balancers](#amazon-load-balancers)
  	- [AWS Network Access Control List (ACL)](#aws-network-access-control-list-acl)
- 	- [AWS Security Groups](#aws-security-groups)
+ 	- [AWS s](#aws-security-groups)
  	- [AWS Internet Gateway](#aws-internet-gateway)
 	- [Amazon Route 53](#amazon-route-53)
 	- [Amazon CloudFront](#amazon-cloudfront)
@@ -281,6 +281,7 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 - It operates on EC2 instance level
 - Not used in S3
 - The security group acts as a virtual firewall to protect the EC2 instance. (A company wants to block network traffic from accessing an EC2 instance)
+- New security groups allow only outbound traffic and block all incoming traffic. (By default, new security groups start with only an outbound rule to allow all traffic to leave the instances. You must add rules to enable any inbound traffic.)
 
 ### AWS Internet Gateway
 - Do not have `allow` or `deny` rules
