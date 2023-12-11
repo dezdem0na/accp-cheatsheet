@@ -358,6 +358,7 @@ AWS Scaling **horizontally**:
 - While SageMaker will help the company find trends and patterns in data using machine learning, SageMaker **doesn't analyze data using Hadoop**.
 
 ### Elastic MapReduce (EMR)
+EMR is analytics service. NOT COMPUTE SERVICE.
 - EMR helps you process large amounts of data using big data frameworks like Hadoop.
 - EMR is a service that makes it easy to process large amounts of data efficiently.
 
