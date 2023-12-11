@@ -580,6 +580,7 @@ Security Design principles:
 - It is a service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics. If metrics are above or under a threshold, a CloudWatch Alert can be triggered
 - A repository for metrics and logs.
 - CloudWatch Dashboard is a single location that allows to access all resources metrics
+- The CloudWatch service is used to create billing alarms. 
 
 ### Amazon DynamoDB
 - It's a fully managed **NoSQL** database service. (schema-less)
@@ -818,6 +819,7 @@ On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS serv
 
 ### AWS Cost Explorer
 -  It is a free tool that allows you to **view charts** of your costs. You can view cost data for the **past 13 months** and **forecast** how much you are likely to spend over the **next 3 months**. Cost Explorer can be used to **discover patterns** in how much you spend on AWS resources over time and to **identify cost problem** area.
+- Not for billing alarms (CloudWatch service is used to create billing alarms)
 
 ### AWS Cost Anomaly Detection
 - Reduce cost surprises and enhance control without slowing innovation.
