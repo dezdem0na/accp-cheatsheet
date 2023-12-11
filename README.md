@@ -16,7 +16,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 
 ### Table of contents
 - Foundations of Cloud Computing
-	- [Shared responsibility model]()
+	- [Shared responsibility model](#shared-responsibility-model)
 	- [AWS Well-Architected Framework](#aws-well-architected-framework)
 	- [Advantages of Amazon Cloud (Benefits)](#advantages-of-amazon-cloud-benefits)
 	- [Geographical Services](#geographical-services)
@@ -142,7 +142,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
   	- You are responsible for application security and identity and access management.
   	- You are responsible for network traffic protection, which includes security group firewall configuration.
   	- You are responsible for your application code, installed software, and more. You should frequently scan for and patch vulnerabilities in your code.
-  - SHARED:
+- SHARED:
     	- Awareness & Training - AWS trains AWS employees, but a customer must train their own employees.
     	- Configuration Management – AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications.
   	- Patch Management – AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest OS and applications.
