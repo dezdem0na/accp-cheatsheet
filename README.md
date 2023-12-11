@@ -143,9 +143,9 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
   	- You are responsible for network traffic protection, which includes security group firewall configuration.
   	- You are responsible for your application code, installed software, and more. You should frequently scan for and patch vulnerabilities in your code.
 - SHARED:
-    	- Awareness & Training - AWS trains AWS employees, but a customer must train their own employees.
-    	- Configuration Management – AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications.
-  	- Patch Management – AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest OS and applications.
+	- Awareness & Training - AWS trains AWS employees, but a customer must train their own employees.
+	- Configuration Management – AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications.
+	- Patch Management – AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest OS and applications.
 
 ### AWS Global Infrastructure
 - Deploying to multiple AZs replicates applications across multiple data centers in the same Region and provides High Availability.
