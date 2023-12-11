@@ -154,12 +154,21 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Multi-Region deployments are best for applications that have extremely high availability requirements.
 - A **Region** is a geographical area of the world that is a collection of data centers logically grouped into Availability Zones.
 - **Availability Zones (AZs)** consist of 1 or more physically separated data centers.
+- AZ:
+	- Contain redundant networking.
+   	- Contain physically separated data centers.
+   	- Contain redundant connectivity.
+   	- They are physically separated, connected through low-latency links, fault tolerant, and allow high availability.
+   	- Availability Zones are a collection of data centers within a specific region. 
 - Regions:
-	- A Region is a geographic area that hosts 2 or more Availability Zones. 
+	- A Region is a geographic area that hosts 2 or more Availability Zones.
+  	- A specific geographic location designed to provide high availability to a certain area.
 	- They are grouped in geographic locations.
 	- They are fully independent and isolated.
 	- They contain only the resources and services specifically deployed to them.
 - There are more Availability Zones than Regions.
+- There are more edge locations than Regions.
+- There are more edge locations than Availability Zones.
 
 ### Amazon S3
 - **CRR** (Cross-region replication): enables automatic, asynchronous copying of objects across buckets in different AWS Regions.
@@ -202,6 +211,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Increase speed and agility.
 - Stop spending money running and maintaining data centres.
 - Go global in minutes.
+- Elasticity.Agility.Variable expense.
 
 ### AWS Compute Optimizer
 It helps avoid overprovisioning and underprovisioning, based on your utilization data, four types of AWS resources:
@@ -994,3 +1004,4 @@ AWS Infrastructure Event Management is a structured program available to **Enter
 -  In IAM user access and secrert keys:
 	-  The customer is responsible for **rotating** keys.
 - Access control lists (ACLs) are one of the resource-based options.
+- IaaS offers building blocks that can be rented. EC2 is an example of IaaS.
