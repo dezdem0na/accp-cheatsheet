@@ -52,6 +52,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Development, Messaging, and Deployment
 	- [Amazon Simple Notification Service (SNS)](#amazon-simple-notification-service-sns)
 	- [Amazon Simple Queue Service (SQS)](#amazon-simple-queue-service-sqs)
+	- Simple Email Service (SES)()
 - Migration and Transfer
 	- [Amazon S3 Transfer Acceleration](#amazon-s3-transfer-acceleration)
 	- [Amazon Neptune](#amazon-neptune)
