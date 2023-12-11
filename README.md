@@ -969,6 +969,12 @@ Note: Although **network access control lists** can be used to block or deny tra
 ### Infrastructure Event Management
 AWS Infrastructure Event Management is a structured program available to **Enterprise Support** customers that helps you plan for large-scale events, such as product or application launches, infrastructure migrations, and marketing events. It is also available to Business Support customers, but they need to pay an additional fee to use this service and cannot use it normally as part of their plan.
 
+### Amazon Aurora
+
+- Aurora delivers up to **five times** the throughput of MySQL, not three times.
+- You can use the AWS Management Console, AWS CLI commands, and API operations to handle routine database tasks
+- It is compatible with the MySQL and PostgreSQL database engines.
+
 ***
 ### Notes
 - **Loose Coupling**: a desirable attribute of an IT system is that it can be broken into smaller, loosly coupled components.
