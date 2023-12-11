@@ -511,6 +511,7 @@ Security Design principles:
   	- AWS Trusted Advisor Priority.
 
 ### Amazon IAM
+- IAM (Identity and Access Management) controls authentication and authorization within an AWS account.
 - You **cannot** use IAM to create **local user accounts** on any system.
 - You are also not charged for what you use, <ins>IAM is free to use</ins>.
 - You can share access to your AWS account.
@@ -1018,3 +1019,4 @@ AWS Infrastructure Event Management is a structured program available to **Enter
 	-  The customer is responsible for **rotating** keys.
 - Access control lists (ACLs) are one of the resource-based options.
 - IaaS offers building blocks that can be rented. EC2 is an example of IaaS.
+- You are using your corporate directory to grant your users access to AWS services. What is this called? **Federated access** is when you use an external directory, such as your corporate one, to grant users in that directory access to AWS resources. 
