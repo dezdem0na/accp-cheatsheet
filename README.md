@@ -170,6 +170,12 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - There are more edge locations than Regions.
 - There are more edge locations than Availability Zones.
 
+### AWS Budgets
+You can use AWS Budgets to set a monthly cost budget with a fixed target amount to track all costs associated with your account. You can choose to be alerted for both actual (after accruing) and forecasted (before accruing) spends
+
+-Usecase: You want to monitor the cost of using your AWS services and receive alerts when the thresholds you define are met. Which of the following AWS Budgets types should you create?
+	- You need to create a cost budget with AWS Budgets if you want to monitor the cost of using your AWS services.
+
 ### Amazon S3
 - **CRR** (Cross-region replication): enables automatic, asynchronous copying of objects across buckets in different AWS Regions.
 - You cannot reserve capacity.
@@ -493,12 +499,15 @@ Security Design principles:
 
 - **Basic Support** is included for all AWS customers and includes:
 	- Customer Service and Communities - 24x7 access to customer service, documentation, whitepapers, and AWS re:Post.
-	- AWS Trusted Advisor - Access to core Trusted Advisor checks
+	- AWS Trusted Advisor - Access to core Trusted Advisor checks.
 	- AWS Health - A personalized view of the health of AWS services, and alerts when your resources are impacted.
 - **Developer**
 - **Business**
 - **Enterprise On-Ramp**
 - **Enterprise**
+	- Technical Account Manager (TAM).
+ 	- Access to AWS Incident Detection and Response for an additional fee.
+  	- AWS Trusted Advisor Priority.
 
 ### Amazon IAM
 - You **cannot** use IAM to create **local user accounts** on any system.
