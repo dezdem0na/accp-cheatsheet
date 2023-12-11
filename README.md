@@ -59,13 +59,14 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS Snow family](#aws-snow-family)
 - Artificial Intelligence and Machine Learning
 	- [Amazon Machine Image (AMI)](#amazon-machine-image-ami)
+	- [Amazon SageMaker](#amazon-sagemaker)
 - Pricing, Billing, Support and Governance
 	- [AWS Trust & Safety team](#aws-trust--safety-team)
 	- [AWS Support plans](#aws-support-plans)
    	- [AWS Partner Network]()
    	- [Infrastructure Event Management]()
 
-
+- Elastic MapReduce (EMR)()
  - [AWS Compute Optimizer](#aws-compute-optimizer)
  - [Amazon Elastic Load Balancer (ELB)](#amazon-elastic-load-balancer-elb)
  - [AWS Scalability](#aws-scalability)
@@ -74,7 +75,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [AWS X-Ray](#aws-x-ray)
  - [AWS TCO Calculator](#aws-tco-calculator)
  - [Amazon Elastic Block Store (EBS)](#amazon-elastic-block-store-ebs)
- - [Amazon SageMaker](#amazon-sagemaker)
  - [Amazon Kinesis](#amazon-kinesis)
  - [AWS CloudFormation](#aws-cloudformation)
  - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
@@ -334,7 +334,11 @@ AWS Scaling **horizontally**:
 - Both non-root and root if launched from an **encrypted** AMI.
 
 ### Amazon SageMaker
-- That enables developers and data scientists to quickly and easily **build**, **train**, and **deploy** <ins>machine learning models</ins> at any scale. 
+- That enables developers and data scientists to quickly and easily **build**, **train**, and **deploy** <ins>machine learning models</ins> at any scale.
+- While SageMaker will help the company find trends and patterns in data using machine learning, SageMaker **doesn't analyze data using Hadoop**.
+
+### Elastic MapReduce (EMR)
+EMR helps you process large amounts of data using big data frameworks like Hadoop.
 
 ### Amazon Kinesis
 - There are four **types** of Kinesis services:
