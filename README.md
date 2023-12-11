@@ -160,15 +160,13 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - There are more Availability Zones than Regions.
 
 ### Amazon S3
-- **CRR** (Cross-region replication): enables automatic, asynchronous
-copying of objects across buckets in different AWS Regions.
+- **CRR** (Cross-region replication): enables automatic, asynchronous copying of objects across buckets in different AWS Regions.
 - You cannot reserve capacity.
 - Bucket names rules:
 	- Names must be unique across all of AWS.
 	- Names must be 3 to 63 characters in length.
 	- Names can only contain lowercase letters, numbers and hyphens.
 	- Names cannot be formatted as an IP address.
-- IAM policies can be written to grant access to Amazon S3 buckets.
 - Amazon S3 storage tier:
 	- **S3 Standard** -> 99.99% SLA -> for data that is accessed less frequently, but requires rapid access when needed.
 	- **S3 Standard-IA** -> 99.9% SLA -> offers the high durability, high throughput, and low latency of S3 Standard.
@@ -191,6 +189,9 @@ copying of objects across buckets in different AWS Regions.
 - **Bucket policies** allow you to control access to entire buckets.
 - You can use **ACLs** to grant basic read/write permissions to other AWS accounts.
 - A customer has set up an Amazon S3 bucket and wants to limit access to specific users: You can add a bucket access policy directly to an Amazon S3 bucket to grant IAM users access permissions for the bucket and the objects in it. While you can control access to a bucket with user policies, this is not the most efficient way to achieve this.
+- Usecase: You have decided to use the **AWS Cost and Usage Report** to track your EC2 Reserved Instance costs:
+	- You cannot store the Cost and Usage Report in a bucket owned by AWS.
+ 	- You can use Cost and Usage Reports to publish your AWS billing reports to an S3 bucket you own. 
 
 ### Advantages of Amazon Cloud (Benefits)
 - Replace upfront capital expenses with low variable costs. (Trade capital expense for variable expense)
@@ -338,7 +339,8 @@ AWS Scaling **horizontally**:
 - While SageMaker will help the company find trends and patterns in data using machine learning, SageMaker **doesn't analyze data using Hadoop**.
 
 ### Elastic MapReduce (EMR)
-EMR helps you process large amounts of data using big data frameworks like Hadoop.
+- EMR helps you process large amounts of data using big data frameworks like Hadoop.
+- EMR is a service that makes it easy to process large amounts of data efficiently.
 
 ### Amazon Kinesis
 - There are four **types** of Kinesis services:
@@ -700,7 +702,7 @@ On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS serv
 
 ### Amazon Athena
 - For interactive analysis.
-- Analyze data directly in **S3** and **Glacier** using <ins>standard SQL queries</ins>.
+- Analyze (query) data directly in **S3** and **Glacier** using <ins>standard SQL queries</ins>.
 
 ### Amazon QuickSight
 - For dashboards and visualizations.
@@ -932,7 +934,10 @@ With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in 
 Note: Although **network access control lists** can be used to block or deny traffic, these operate at the subnet level (covering all instances in the subnet with the same ruleset), not per instance as the question specifies.
 - Route tables: tell traffic where it should go next to reach its destination.
 - NAT gateway: Is required to allow resources in a private subnet to access the internet.
-- Internet gateway: Enables resources inside your VPC to reach the internet, as long as route tables and IP addresses are correctly configured in your environment.(For a subnet to be public and send non-local traffic to the internet)
+- Internet gateway:
+	- Enables resources inside your VPC to reach the internet, as long as route tables and IP addresses are correctly configured in your environment.
+	- An internet gateway allows public traffic to the internet from a VPC.
+   	- For a subnet to be public and send non-local traffic to the internet
 
 ### Infrastructure Event Management
 AWS Infrastructure Event Management is a structured program available to **Enterprise Support** customers that helps you plan for large-scale events, such as product or application launches, infrastructure migrations, and marketing events. It is also available to Business Support customers, but they need to pay an additional fee to use this service and cannot use it normally as part of their plan.
