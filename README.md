@@ -66,6 +66,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS Support plans](#aws-support-plans)
    	- [AWS Partner Network]()
    	- [Infrastructure Event Management]()
+   	- AWS Budgets()
 
 - Elastic MapReduce (EMR)()
  - [AWS Compute Optimizer](#aws-compute-optimizer)
