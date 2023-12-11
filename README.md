@@ -16,12 +16,12 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 
 ### Table of contents
 - Foundations of Cloud Computing
+	- [Shared responsibility model]()
 	- [AWS Well-Architected Framework](#aws-well-architected-framework)
 	- [Advantages of Amazon Cloud (Benefits)](#advantages-of-amazon-cloud-benefits)
 	- [Geographical Services](#geographical-services)
 	- [AWS Global Infrastructure]()
 - Security, Compliance, and Governance
-	- Shared responsibility model()
 	- [AWS Shield](#aws-shield)
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 	- [AWS CloudHSM](#aws-cloudhsm)
@@ -128,6 +128,25 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Notes](#notes)
 
 ***
+
+### Shared responsibility model
+- AWS:
+  	- AWS Global Infrastructure, Regions, edge locations, and Availability Zones.
+  	- AWS controls access to its data centers where your data resides.
+  	- AWS maintains networking components: generators, uninterruptible power supply etc.
+  	- AWS is responsible for any managed service like RDS, S3, ECS, or Lambda, patching of host operating systems.
+- CUSTOMER:
+	- You are responsible for managing your application data, which includes encryption options.
+ 	- You are responsible for securing your account and API calls, rotating credentials, restricting internet access from your VPCs.
+  	- You are responsible for the guest operating system (OS), which includes updates and security patches.
+  	- You are responsible for application security and identity and access management.
+  	- You are responsible for network traffic protection, which includes security group firewall configuration.
+  	- You are responsible for your application code, installed software, and more. You should frequently scan for and patch vulnerabilities in your code.
+  - SHARED:
+    	- Awareness & Training - AWS trains AWS employees, but a customer must train their own employees.
+    	- Configuration Management – AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications.
+  	- Patch Management – AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest OS and applications.
+
 ### AWS Global Infrastructure
 - Deploying to multiple AZs replicates applications across multiple data centers in the same Region and provides High Availability.
 - Multi-Region deployments are best for applications that have extremely high availability requirements.
