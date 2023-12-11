@@ -21,6 +21,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [Geographical Services](#geographical-services)
 	- [AWS Global Infrastructure]()
 - Security, Compliance, and Governance
+	- Shared responsibility model()
 	- [AWS Shield](#aws-shield)
 	- [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
 	- [AWS CloudHSM](#aws-cloudhsm)
