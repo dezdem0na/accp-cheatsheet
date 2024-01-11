@@ -47,7 +47,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [Amazon VPC](#amazon-vpc)
    	- [Amazon Load Balancers](#amazon-load-balancers)
  	- [AWS Network Access Control List (ACL)](#aws-network-access-control-list-acl)
- 	- [AWS s](#aws-security-groups)
+ 	- [AWS Security Groups](#aws-security-groups)
  	- [AWS Internet Gateway](#aws-internet-gateway)
 	- [Amazon Route 53](#amazon-route-53)
 	- [Amazon CloudFront](#amazon-cloudfront)
