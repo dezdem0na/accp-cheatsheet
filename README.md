@@ -33,7 +33,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [AWS Support plans](#aws-support-plans)
    	- [AWS Partner Network]()
    	- [Infrastructure Event Management]()
-   	- AWS Budgets()
+   	- [AWS Budgets](#aws-budgets)
 - Auditing, Monitoring, Logging
 	- [Amazon CloudWatch](#amazon-cloudwatch)
 	- [AWS Trusted Advisor](#aws-trusted-advisor)
@@ -169,7 +169,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - There are more edge locations than Availability Zones.
 
 ### AWS Budgets
-You can use AWS Budgets to set a monthly cost budget with a fixed target amount to track all costs associated with your account. You can choose to be alerted for both actual (after accruing) and forecasted (before accruing) spends
+You can use AWS Budgets to set a monthly cost budget with a fixed target amount to track all costs associated with your account. You can choose to be alerted for both actual (after accruing) and forecasted (before accruing) spends.  You can ALSO use AWS Budgets to monitor your aggregate utilization and coverage metrics for your Reserved Instances (RIs) or Savings Plans.
 
 -Usecase: You want to monitor the cost of using your AWS services and receive alerts when the thresholds you define are met. Which of the following AWS Budgets types should you create?
 	- You need to create a cost budget with AWS Budgets if you want to monitor the cost of using your AWS services.
@@ -300,15 +300,18 @@ AWS Scaling **horizontally**:
 - **Subscriptions**: the endpoints that a topic sends messages to
 - **Publisher**: the person/alarm/event that gives SNS the message that needs to be sent
 
-- It is a web service that makes it easy to **set up**, **operate**, and **send notifications** <ins>from the cloud</ins>.
-- SNS supports notifications over multiple transports including *HTTP/HTTPS*, *Email/Email-JSON*, *SQS* and *SMS*.
-- It is used for building and *integrating* **loosely-coupled**, *distributed applications*.
+- It is a web service that makes it easy to **set up**, **operate**, and **send notifications** from the cloud.
+- SNS supports notifications over multiple transports including HTTP/HTTPS, Email/Email-JSON, SQS and SMS.
+- It is used for building and integrating **loosely-coupled**, *distributed applications*.
 
 ### Amazon Simple Queue Service (SQS)
 - It is a fully managed message queuing service that enables you to *decouple* and *scale microservices*, *distributed systems*, and *serverless applications*.
 - **Use case**: *Decoupling application* components to ensure that there is no dependency on the availability of a single component.
 - It can be used to ensure the **persistence** of **in-flight** *transactions independently* of any single application component.
 - It is a message queue used for **decoupling** application components
+
+### Simple Email Service (SES)
+Amazon Simple Email Service (Amazon SES) lets you reach customers confidently without an on-premises Simple Mail Transfer Protocol (SMTP) email server using the Amazon SES API or SMTP interface.
 
 ### AWS Inspector
 - Inspector is an *automated security assessment* service that helps improve the security and compliance of applications deployed on AWS.
