@@ -28,6 +28,12 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 	- [Key Management Service (KMS)]()
 	- [Amazon GuardDuty](#amazon-guardduty)
 	- [Amazon IAM](#amazon-iam)
+- Pricing, Billing, Support and Governance
+	- [AWS Trust & Safety team](#aws-trust--safety-team)
+	- [AWS Support plans](#aws-support-plans)
+   	- [AWS Partner Network]()
+   	- [Infrastructure Event Management]()
+   	- AWS Budgets()
 - Auditing, Monitoring, Logging
 	- [Amazon CloudWatch](#amazon-cloudwatch)
 	- [AWS Trusted Advisor](#aws-trusted-advisor)
@@ -61,14 +67,8 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
 - Artificial Intelligence and Machine Learning
 	- [Amazon Machine Image (AMI)](#amazon-machine-image-ami)
 	- [Amazon SageMaker](#amazon-sagemaker)
-- Pricing, Billing, Support and Governance
-	- [AWS Trust & Safety team](#aws-trust--safety-team)
-	- [AWS Support plans](#aws-support-plans)
-   	- [AWS Partner Network]()
-   	- [Infrastructure Event Management]()
-   	- AWS Budgets()
 
-- Elastic MapReduce (EMR)()
+ - Elastic MapReduce (EMR)()
  - [AWS Compute Optimizer](#aws-compute-optimizer)
  - [Amazon Elastic Load Balancer (ELB)](#amazon-elastic-load-balancer-elb)
  - [AWS Scalability](#aws-scalability)
@@ -107,8 +107,6 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon QuickSight](#amazon-quicksight)
  - [Amazon CodeStar](#amazon-codestar)
  - [Amazon Cloud9](#amazon-cloud9)
- - [Amazon CodeDeploy](#amazon-codedeploy)
- - [Amazon ](#amazon-)
  - [Amazon EC2](#amazon-ec2)
  - [AWS Cost Explorer](#aws-cost-explorer)
  - [AWS Cost Anomaly Detection](#aws-cost-anomaly-detection)
@@ -741,7 +739,16 @@ On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS serv
 - It's a cloud-based integrated development environment (**IDE**) that lets you write, run, and debug your code with just a **browser**.
 
 ### Amazon CodeDeploy
-- It is a deployment service that **automates application deployments** to <ins>Amazon EC2 instances</ins>, <ins>on-premises instances</ins>, or <ins>serverless Lambda functions</ins>.
+- It is a deployment service that **automates application deployments** to:
+	- Amazon Elastic Compute Cloud (EC2)
+ 	- Amazon Elastic Container Service (ECS)
+ 	- on-premises instances
+ 	- AWS Lambda
+  	- AWS Fargate
+  - Monitor health and rollback
+  - Deploy to many hosts
+  - Launch and track your application deployments' status through the AWS Management Console or AWS Command Line Interface (CLI).
+  - Reuse your existing setup code and integrate with your existing software release process or continuous delivery toolchain.
 
 ### Amazon Route 53
 - It has a **global scope**.
@@ -841,10 +848,29 @@ On-premises, Amazon RDS DB instance, database on an Amazon EC2. From an AWS serv
 - It can be used to <ins>create and manage a selection of AWS services</ins> that are approved for use on AWS.
 - These IT services **can include everything** from virtual machine images, servers, software, and databases to complete multi-tier application architectures.
 
-### AWS Managed Services
-- Leverage standard AWS services and offer guidance and execution of operational best practices with specialized automations, skills, and experience.
+### AWS Managed Services (AMS)
+AWS Managed Services (AMS) offers monitoring, incident detection, response, and remediation for AWS infrastructure and security incidents.
+
+What we DON'T do:
+- While AMS simplifies application deployment by providing a number of manual and automated options, you're responsible for the development, testing, updating, and management of your application. AMS provides troubleshooting assistance for infrastructure issues that impact applications, but AMS can't access or validate your application configurations.
+
 - It manages the **daily operations** of your AWS infrastructure in alignment with **ITIL** processes and provides a **baseline integration** with IT Service Management (**ITSM**) tools such as the ServiceNow platform.
 - Managed Services helps you efficiently operate your AWS infrastructure and **reduces operational risks and overhead**.
+
+AMS features:
+- Logging, Monitoring, Guardrails, and Event Management
+- Backup and Restore
+- Security and access management
+- Patch management
+- Change management
+- Automated and self-service provisioning management (provision AWS resources)
+- Incident management/Problem management/Reporting
+- Service request management
+- Designated resources
+- Developer mode
+- Firewall management
+- Customer-managed account
+- AWS support/Service Desk 
 
 ### Amazon Machine Image (AMI)
 - It contains three catagories:
