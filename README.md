@@ -539,7 +539,13 @@ Security Design principles:
 - The IAM credential report lists all the users and the status of their various credentials, including passwords, access keys, server certificates, and MFA devices in order to support auditing and compliance efforts.
 - Usecase: At each month-end, the staff member needs access to an application running on EC2: Have the user request temporary security credentials for the application by assuming a role.
 - Which term refers to the Identity and Access Management (IAM) resource objects that AWS uses for authentication?
-- Entities - **IAM entities are the users (IAM users and federated users) and roles** that are created and used for authentication. 
+- Entities - **IAM entities are the users (IAM users and federated users) and roles** that are created and used for authentication.
+
+**Resources** – The AWS resource object upon which the actions or operations are performed.
+
+**Principal** – The person or application that used an entity (user or role) to send the request. Information about the principal includes the policies that are associated with the entity that the principal used to sign in.
+
+An **IAM identity** represents a human user or programmatic workload, and can be authenticated and then authorized to perform actions in AWS. Each IAM identity can be associated with one or more policies. 
 
 ### Amazon Cognito
 - Amazon Cognito Identity Pool provides temporary AWS credentials for users who are guests (unauthenticated) and for users who have been authenticated and received a token. An identity pool is a store of user identity data specific to your account.
